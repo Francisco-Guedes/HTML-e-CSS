@@ -1,0 +1,104 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: "font-family: 'Montserrat', sans-serif;";
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 1.5em;
+    color: #333;
+}
+p{
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 0px;
+}
+
+/* BODY */
+.geral{
+    background-image:url(/Imagens/spvert01.jpeg);
+    background-size: 1600px auto;
+    height: auto
+;
+}
+.geral button{
+    width: 100%;
+    padding: 15px 15px;
+    background-color: #800080;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.geralzao{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/* CABECALHO */
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color:black;
+}
+.logo a{
+    width: 98px;
+    height: 107px;
+    float: left;
+    background-image: url(../Imagens/logosp.jpg);
+    font-size: 0%;
+    border-radius:5px;
+}
+.cabecalho form{
+    width: 30%;
+    float: right;
+}
+.cabecalho input[type="text"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0 0 10px;
+}
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0 10px 10px 0;
+    background-color: #4a4d60;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Menu */
+.menu{
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+}
+.menu li{
+    float: left;
+    display: grid;
+}
+.menu li a{
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+.menu li a:hover{
+    color: #fff;
+    font-size: 1em;
+}
+/* CIDADES */
